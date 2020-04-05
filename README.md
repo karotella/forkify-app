@@ -4,9 +4,6 @@
 ## General info
 Single Page Application - simple recipe search app. The main purpose was to build an app using AJAX, API, ES6 modules, Webpack Server and MVC architecture.
 
-## Preview
-[View Live Preview]()
-
 ## Technologies
 * HTML5
 * CSS3
