@@ -1,15 +1,12 @@
 {
   "name": "forkify",
-  "homepage": "https://karotella.github.io/forkify-app/",
   "version": "1.0.0",
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "Ewa Światczyńska",
   "license": "ISC",
@@ -17,7 +14,6 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "babel-loader": "^8.1.0",
-    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^4.0.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
